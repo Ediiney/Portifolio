@@ -9,7 +9,7 @@ nav {
 
 .card{
     margin: 15px;
-    display:flex;
+    display:flexbox;
     justify-content: center;
     align-items: center;
     filter:  drop-shadow(0 0 0.4em rgb(38, 40, 41));
@@ -18,15 +18,13 @@ nav {
 
 
 .main{
-    width: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-items: center;
-    background-color: 	#4F4F4F;
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #4F4F4F;
     border-radius: 5px;
-    box-shadow: 0 1px 8px 8px rgba(0,0,0,.2);
-    margin-left: 15px;
-    margin-right: 15px;
+    box-shadow: 0 1px 8px 8px rgba(0,0,0,.2); 
 }
 
 .container{
@@ -62,9 +60,23 @@ footer {
 }
 
 .gif{
+    margin-bottom: 2em;
     align-items: center;
     display: flex;
     justify-content: center;
     filter:  drop-shadow(0 0 0.4em rgb(38, 40, 41));
 }
 
+.experiencia{
+    margin: 35px;
+    text-align: center;
+    display: flexbox;
+    border-radius: 5px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+ul {  
+    text-align:center;
+    list-style-type: none;    
+}

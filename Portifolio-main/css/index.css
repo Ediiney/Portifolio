@@ -1,0 +1,189 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: #ffffff;
+	color: #000000;
+	font-family: 'Manrope', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+/*font-family: 'Barlow', sans-serif;*/
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.card_wrapper {
+	padding: 80px 0;
+	background: linear-gradient(278.54deg, #001DAC 15.93%, #000F57 98.7%);
+	display: flex;
+	align-items: center;
+}
+
+.head_text {
+	font-size: 45px;
+	font-weight: 700;
+	color: #ffffff;
+	font-family: 'Barlow', sans-serif;
+	filter:  drop-shadow(0 0 0.4em rgb(38, 40, 41));
+	padding-bottom: 2%;
+}
+
+.card_box {
+	border-radius: 10px;
+	margin-top: 15px;
+	background: #ffffff;
+	text-align: center;
+	transition: .3s;
+}
+
+.img_box {
+	width: 200px;
+	height: 200px;
+	border: 10px solid #ffffff;
+	margin: auto;
+	padding: 10px;
+	background: linear-gradient(96.49deg, #F16262 0%, #3200FF 102.71%);
+	border-radius: 50%;
+	z-index: 1;
+	position: relative;
+}
+
+.card-img{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+.card-text{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+.text_box h4 {
+	font-family: 'Barlow', sans-serif;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 30px 0 5px 0;
+}
+
+.card-body p {
+	font-weight: 600;
+	color: #000000;
+	font-size: 14px;
+	text-align: center;
+}
+
+.card_social li {
+	display: inline-block;
+}
+
+.card_social li a {
+	width: 35px;
+	height: 35px;
+	background: linear-gradient(96.49deg, #F16262 0%, #3200FF 102.71%);
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	font-size: 14px;
+	margin: 25px 5px 0 5px;
+	color: #ffffff;
+	transition: .3s;
+}
+
+.card_social li a:hover {
+	background: linear-gradient(96.49deg, #3200FF 0%, #F16262 102.71%);
+}
+
+.card_carousel .owl-nav {
+    position: absolute;
+    top: -8%;
+    right: 0;
+}
+
+.card_carousel .owl-prev, .card_carousel .owl-next {
+	width: 40px;
+	height: 40px;
+	background: #ffffff;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	margin: 0 5px;
+	font-size: 18px;
+}
+
+div.card{
+	width: 100%;
+	padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter:  drop-shadow(0 0 0.4em rgb(38, 40, 41));
+}
+
+#foto{
+	border-radius: 50%;
+}
+
+footer{
+	font-weight: 600;
+	color: #000000;
+	font-size: 15px;
+    text-align: center;
+}
+
+
